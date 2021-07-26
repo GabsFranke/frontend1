@@ -1,0 +1,94 @@
+/* *CARACTERÍSTICAS GRALES*  */
+
+/* RESETEO DEL CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*hace que tome el valor total que le das a una caja 
+    y el border, padding y contenido queden adentro*/
+}
+
+/*esta hermosura te permite guardar variables y dsp usarlas x ahi*/
+:root { 
+    --clr-neon: hsl(317 100% 54%); /*despues para usarlas escribis -- y tab en la que queres*/
+    --clr-bg: hsl(323 21% 16%);
+    --clr-card: hsl(327, 18%, 10%);
+    --clr-dark: hsl(327, 18%, 10%);
+    --clr-light: white;
+    --clr-transparent: rgba(0,0,0,0.4);
+    --primary-font: 'Teko', sans-serif;
+    --details-font: 'Mukta', sans-serif;
+}
+
+/* DECLARACIONES QUE NECESITA UN CONTENEDOR */
+div {
+    width: 80%;
+    height: 10rem; /*puede expresarse en cualquier unidad*/
+    background-color: var(--clr-dark);  /*puede expresarse en rgb, hsl, hexadecimal, 
+    del color en ingles (tiene que estar guardado), variable, tiene que estar en :root*/
+    margin: 1em;
+    padding: 1em;
+    border-radius: 10px;
+    display: flex; /* block/inline/inline-block/grid/flex */
+} 
+
+/* QUE NECESITA UNA IMAGEN */
+img {
+    width: 80%;
+    height: 15rem;
+    object-fit: cover; /*esta belleza les puede salvar la vida, recuerdenlo*/
+    border-radius: 10px; /*que los bordes sean redondeaditos*/
+} 
+
+/* QUE NECESITA UN TEXTO */
+.text {
+    font-family: var(--details-font);
+    font-style: italic;
+    font-weight: 700; /*si es externa, es posible que haya que descargar la de este peso*/
+    font-size: 1rem;
+    letter-spacing: 0.2em;
+    word-spacing:0.2em;
+    line-height: 1.2em; /* => puede reemplazar padding si es un titulo x ejemplo, 
+    xq alinea al centro */
+    text-align:left; /* puede ser: right, center, justify */
+    color: var(--clr-neon);
+    margin:3rem;
+    padding: 0.3em;
+    text-transform: uppercase; /* lowercase, capitalize */;
+    text-decoration: none; /*con esto le sacas el subrayado y que se vean azul los hipervinculos*/
+} 
+
+/* QUE NECESITA UNA LISTA  */
+.li {
+    list-style-type: circle; /* disc, square, none, decimal, decimal-leading-zero, 
+    upper-latin, upper-roman; */
+    list-style-image:url(https://www.pexels.com/es-es/foto/ligero-moda-mujer-oscuro-6405572/); /*le pone una imagen al puntito de la lista*/
+    list-style-position: outside; /* inside; se aprecia la diferencia cuando hay mas de una linea*/
+}
+
+/* QUE NECESITA UN FONDO */
+.main-background {
+    background-color: #fefefe;
+    background-image: url('https://www.pexels.com/es-es/foto/ligero-moda-mujer-oscuro-6405572/'); /*si tambien le pusiste color, se ve la imagen, no el color*/
+    background-repeat: no-repeat;
+    background-position: left top; /*eje horizontal primero, vertical despues*/
+    background-attachment: fixed;
+    background-size: cover, contain;
+    object-fit: cover;
+}
+
+h1 {
+    opacity: 0.4; /*con esto le das opacidad (transparencia) al elemento donde lo apliques*/
+}
+/* Recorda que z-index necesita position (absolute, relative o fixed) y que por defecto es valor 0 */
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 500; /* negrita */
+    text-align: center;
+    text-decoration: underline;
+    line-height: 20px;
+}

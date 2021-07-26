@@ -1,0 +1,45 @@
+CARACTERÍSTICAS GRALES 
+
+QUE NECESITA UN CONTENEDOR
+.div {
+      width: ;
+      height: ;
+      background-color: ;
+      margin: 
+      padding:
+      border-radius: ;
+      display: grid/flex;
+} 
+
+QUE NECESITA UNA IMAGEN
+.img {
+      width: ;
+      height: ;
+      object-fit: ;
+      border-radius: ;
+} 
+
+QUE NECESITA UN TEXTO
+.text {
+      font-family:;
+      font-style:;
+      font-weight:;
+      font-size:;
+      letter-spacing:;
+      word-spacing:;
+      line-height:;
+      text-align:left, right, center, justify;
+      color:;
+      margin:;
+      padding:;
+      text-transform: uppercase, capitalize;
+      text-decoration:;
+} 
+
+QUE NECESITA UNA LISTA 
+.li {
+      list-style-type: circle, disc, square, none, decimal, decimal-leading-zero, upper-latin, upper-roman;
+      list-style-image:;
+      list-style-position: outside, inside;
+      /se aprecia la diferencia cuando hay mas de una linea/
+}
