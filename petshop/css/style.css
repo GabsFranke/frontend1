@@ -1,188 +1,179 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Roboto;
+  font-family: Roboto;
 }
 
 header {
-    background-color: #F0A83E;
-
+  background-color: #f0a83e;
 }
 
 .descuento {
-    display: flex;
-    background-color: black;
-    color: white;
-    justify-content: space-between;
-    
-    padding: 4px 60px;
+  display: flex;
+  background-color: black;
+  color: white;
+  justify-content: space-between;
+
+  padding: 4px 60px;
 }
 
 .descuento p {
-    margin-left: 50px;
+  margin-left: 50px;
 }
 
 ul {
-    display: flex;
-
+  display: flex;
 }
 
 .descuento ul {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 .descuento ul li {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .main-nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 1rem;
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  color: white;
 }
 
 i {
-    margin-left: 20px;
+  margin-left: 20px;
 }
 
 .banner {
-    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
-    height: 409px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    justify-content: flex-end;
+  background-image: url(../img/bowl-and-pet-daities-on-green-background\1png);
+  height: 409px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .banner div {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    padding: 12px;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 12px;
+  align-items: center;
 }
 
 h1 {
-    background-color: white;
-    padding: 10px;
-    font-weight: 400;
-    border-radius: 5px;
-    font-size: 30px;
+  background-color: white;
+  padding: 10px;
+  font-weight: 400;
+  border-radius: 5px;
+  font-size: 30px;
 }
 
 .banner div button {
-    background-color: #F0A83E;
-    width: 141px;
-    height: 49px;
-    color: white;
-    border: 0;
-    font-size: 16px;
-    border-radius: 5px;
+  background-color: #f0a83e;
+  width: 141px;
+  height: 49px;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  border-radius: 5px;
 }
 
 .banner div p {
-    color: #3C2313;
-    padding: 12px;
-    font-size: 16px;
+  color: #3c2313;
+  padding: 12px;
+  font-size: 16px;
 }
 
 .second-nav {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 h2 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.second-nav nav ul li{
-    margin-left: 13px;
+.second-nav nav ul li {
+  margin-left: 13px;
 }
 
 .articulos {
-    display: flex;
-    justify-content: center;
-
+  display: flex;
+  justify-content: center;
 }
 
 .articulos article {
-    margin: 49px 20px;
-    text-align: center;
-    background-color: #FBFAF6;
-    
+  margin: 49px 20px;
+  text-align: center;
+  background-color: #fbfaf6;
 }
 
 .descripcion {
-    color: #3C2313;
-    font-weight: 700;
+  color: #3c2313;
+  font-weight: 700;
 }
 
 .precio {
-    color: #F0A83E;
+  color: #f0a83e;
 }
 
 .suscripcion {
-    background-color: #F0A83E;
-    height: 60px;
-    color: white;
-    font-size: 20px;
-    padding: 10px 20px;
-    display: flex;
-    align-items: center;
-
+  background-color: #f0a83e;
+  height: 60px;
+  color: white;
+  font-size: 20px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
 }
 .suscripcion span {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .datos-contacto {
-    background-color: #3C2313;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 70px;
+  background-color: #3c2313;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 70px;
 }
 
 .datos-contacto div {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer-icon {
-    display: flex;
-    margin-bottom: 20px;
-
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .footer-icon div {
-    margin-left: 25px;
-    color: #8A8787;
-    font-size: 10px;
+  margin-left: 25px;
+  color: #8a8787;
+  font-size: 10px;
 }
 
 h3 {
-    font-size: 20px;
-    color: white;
+  font-size: 20px;
+  color: white;
 }
 
 .rights {
-    background-color: black;
-    font-size: 10px;
-    text-align: center;
-    color: white;
-    
-    padding: 4px;
+  background-color: black;
+  font-size: 10px;
+  text-align: center;
+  color: white;
+
+  padding: 4px;
 }
-
-

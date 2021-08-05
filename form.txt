@@ -1,0 +1,50 @@
+      <!-- action define la ruta donde se va a procesar la informacion capturada. "/registro" "/contact". -->
+      <!-- method define como se enviara la info. GET o POST (dialog?). -->
+      <form action="/registro" method="POST">
+        <!--  Aca inserto cuantos inputs de texto necesito -->
+        <fieldset>
+          <!-- Sirve para agrupar varios elementos de un form, necesita un <legend> -->
+          <legend>Ingrese sus datos aqui</legend>
+          <!-- <label> sirve para asociar un texto descriptivo a un campo. Hay que asociar <label for="username"> con <input id="username"> -->
+          <label for="username" tabindex="1">Usuario</label>
+          <!-- <input> Elemento multifuncion. Con el type obtenemos distintos tipos de campos. Con el name se identifica el campo (sin name no se envia). -->
+          <input type="text" name="userName" id="username" />
+
+          <!-- <label for="password">Contraseña</label>
+          <input type="password" name="userPassword" id="password" /> -->
+
+          <label for="email" tabindex="2">Email</label>
+          <input type="email" name="emailUser" id="email" />
+        </fieldset>
+        <label for="greedy" tabindex="3">Cuanto dinero gratis desea?</label>
+        <input type="number" name="greedyUser" id="greedy" />
+
+        <!-- <textarea> para agregar una caja de texto grande. -->
+        <!-- <form action="/contact" method="POST"> -->
+        <label for="comentario" tabindex="4"
+          >Que le motiva a desear ese dinero:</label
+        >
+        <textarea name="userComment" id="comentario" cols="30" rows="10">
+          Contenido
+        </textarea>
+        <!-- </form> -->
+
+        <form action="/nacionalidad" method="GET">
+          <label for="nacionalidad">Nacionalidad:</label>
+          <!-- <select name=""> Elemento para agregar componente que muestra opciones -->
+          <select name="nacionalidad" id="nacionalidad">
+            <!-- <option value="" selected></option> El valor sera el enviado. 'selected' sirve para dejar la opcion preseleccionada. -->
+            <optgroup label="Argento">
+              <!-- Sirve para agrupar opciones dentro del menu desplegable. -->
+              <option value="arg">Argentina</option>
+              <option value="arg">Mateina</option>
+            </optgroup>
+            <option value="col">Colombia</option>
+          </select>
+        </form>
+
+        <!-- type="reset/submit/button". button no tiene accion por defecto. Se lo usa con javascript. -->
+        <button type="submit">Enviar</button>
+        <!-- <input type="submit" value="ENVIAR"> Tambien se puede usar <input> para hacer un boton con el texto a mostrar en value -->
+        <!-- Cierra el form -->
+      </form> 
