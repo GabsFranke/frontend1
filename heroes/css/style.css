@@ -1,132 +1,132 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
 * {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: "Roboto";
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: "Roboto";
 }
 
 body main {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .descuentos {
-  background-color: #1cd1b0;
-  font-size: 1.5rem;
+    background-color: #1cd1b0;
+    font-size: 1.5rem;
 }
 
 .logo {
-  display: flex;
-  background-color: #00669f;
-  color: white;
-  font-size: 3rem;
-  padding: 2.7rem;
+    display: flex;
+    background-color: #00669f;
+    color: white;
+    font-size: 3rem;
+    padding: 2.7rem;
 }
 
 .main-nav {
-  text-align: right;
-  background-color: black;
-  color: white;
+    text-align: right;
+    background-color: black;
+    color: white;
 }
 
 .main-nav ul {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 2rem;
-  font-size: 1.6rem;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 2rem;
+    font-size: 1.6rem;
 }
 
 .main-nav ul li {
-  font-size: 1.6rem;
-  margin: 1.1rem;
+    font-size: 1.6rem;
+    margin: 1.1rem;
 }
 
 section {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 16.9rem 11.6rem;
-  gap: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 16.9rem 11.6rem;
+    gap: 6rem;
 }
 
 .articulo {
-  position: relative;
-  background-color: #f3f3f3;
-  width: 40rem;
-  margin: 0 3rem;
-  text-align: center;
+    position: relative;
+    background-color: #f3f3f3;
+    width: 40rem;
+    margin: 0 3rem;
+    text-align: center;
+    border-radius: 1rem;
 }
 
 .background {
-  object-fit: cover;
+    width: 100%;
+    height: 30rem;
+    object-fit: cover;
+    margin-bottom: 10rem;
+    border-radius: 1rem 1rem 0 0;
 }
 
-
 .fas {
-  position: absolute;
-  font-size: 2.3rem;
-  color: red;
-  left: 1.5rem;
-  top: 1.5rem;
+    position: absolute;
+    font-size: 2.3rem;
+    color: red;
+    left: 1.5rem;
+    top: 1.5rem;
 }
 
 .img-perfil {
-  position: relative;
-  border-radius: 100%;
-  /* left: 50%; 
-  transform: translate(-50%, 0); */ /* Esto mueve el elemento en base a su mismo ancho */
-  bottom: 14%;
+    position: absolute;
+    border-radius: 50%;
+    height: 15rem;
+    left: 50%;
+    transform: translate(-50%, 0);
+    top: 22rem;
+    width: 15rem;
+    object-fit: center top cover;
 }
 
 h2 {
-  position: relative;
-  bottom: 5.6rem;
-  font-size: 3rem;
+    font-size: 3rem;
 }
 
 .articulo p {
-  position: relative;
-  bottom: 4.6rem;
-  padding: 1.6rem;
-  font-size: 1.6rem;
-  text-align: left;
+    font-size: 1.6rem;
+    text-align: left;
+    margin: 0 1.5rem 3rem;
+    height: 6rem;
 }
 
-.articulo input {
-  position: relative;
-  font-size: 1.5rem;
-  bottom: 2.6rem;
-  width: 12.878rem;
-  height: 4.852rem;
-  background-color: #00669f;
-  color: white;
+.articulo input {  
+    font-size: 1.5rem;
+    width: 12.878rem;
+    height: 4.852rem;
+    background-color: #00669f;
+    color: white;
+    margin: 2rem auto;
 }
 
 .newarticle {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .newarticle input {
-  font-size: 6.2rem;
-  color: #fff;
-  background-color: #00669f;
-  border-radius: 100%;
-  height: 8.2rem;
-  width: 8.2rem;
+    font-size: 6.2rem;
+    color: #fff;
+    background-color: #00669f;
+    border-radius: 100%;
+    height: 8.2rem;
+    width: 8.2rem;
 }
 
 footer {
-  background: #00669f;
-  font-size: 1.5rem;
-  padding: 1.5rem;
-  text-align: center;
-  color: white;
-  position: absolute; bottom: 0;
+    background: #00669f;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    color: white;
 }
-
